@@ -17,7 +17,7 @@ if fl is not None:
     df = pd.read_csv(filename, encoding = "ISO-8859-1")
 else:
     #os.chdir(r"/")
-    df = pd.read_excel("SSD.xlsx")
+    df = pd.read_csv("SSD.csv")
 
 col1, col2 = st.columns((2))
 df["Order Date"] = pd.to_datetime(df["Order Date"])
