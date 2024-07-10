@@ -1,1 +1,2 @@
 plotly
+sklearn==1.0.2
