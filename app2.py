@@ -1,6 +1,6 @@
 import streamlit as st
 import pickle 
-import gradio as gr 
+#import gradio as gr 
 
 def model_pred(GenHlth,CholCheck,HighBP,AnyHealthcare,PhysActivity,Veggies):
     values = np.array([GenHlth,CholCheck,HighBP,AnyHealthcare,PhysActivity,Veggies]).reshape(1,-1)
