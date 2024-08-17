@@ -1,2 +1,2 @@
 plotly
-sklearn==0.0.post11
+scikit-learn==0.0.post11
