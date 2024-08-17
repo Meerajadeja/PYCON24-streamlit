@@ -1,2 +1,2 @@
 plotly
-sklearn==1.0.2
+sklearn==0.0.post11
